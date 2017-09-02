@@ -1,0 +1,275 @@
+.container{
+  background-color: black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 700px;
+   min-width: 1200px;
+   width: auto;
+height:auto;
+
+}
+
+
+.container-3{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  min-height: 50px;
+  min-width: 1200px;
+  width: auto;
+  height: 100%;
+  background-color: black;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#locations{
+  opacity: 0.9;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.logo{
+  display:inline-block;
+
+}
+
+.container-3{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+
+}
+.Downtown, .Bayside, .Oakdale{
+  display: inline-block;
+  align-content: center;
+  background-color: black;
+  min-height: 300px;
+  height: auto;
+  min-width: 300px;
+  width: auto;
+  font-style: helvetica;
+  font-size: 22px;
+  position: relative;
+  bottom: 60px;
+  margin-bottom: 80px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+#locations{
+  position: relative;
+  bottom: 60px;
+}
+
+#Bayside-text, #Oakdale-text, #Downtown-text{
+  color: seashell;
+  opacity: 1;
+
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+p{
+  color: seashell;
+  opacity: 1;
+ text-align: center;
+  display: block;
+}
+#log{
+  opacity: 0.9;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 22px;
+  height: 50px;
+  width: auto;
+}
+
+#blitz, #blitz1{
+  height: 200px;
+  width: 300px;
+  padding-right: 20px;
+
+}
+
+#blitz1{
+  padding-left: 200px;
+}
+
+.blitz-tea, .blitz-tea2, .blitz-tea3{
+  display: inline-block;
+
+}
+.blitz-tea2{
+  padding-left: 365px;
+}
+
+#blitz-text, #blitz-text1, #blitz-text2{
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+#blitz-text1{
+  padding-left: 175px;
+}
+header{
+  background-color: black;
+    margin: 0;
+    min-height: 69px;
+    height: auto;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    width: auto;
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    z-index: 1;
+}
+.anchor{
+  display: block;
+  height: 69px;
+  margin-top: -69px;
+  visibility: hidden;
+}
+#mission1{
+  right: auto;
+  margin-left: 950px;
+  margin-top: 50px;
+
+}
+#featured-tea2{
+  right: auto;
+  margin-left: 1050px;
+  margin-top: 50px;
+
+}
+#location2{
+  right: auto;
+  margin-left: 1200px;
+  margin-top: 50px;
+
+}
+#mission1{
+  position: absolute;
+ top: -30px;
+}
+#featured-tea2, #location2{
+  position: absolute;
+  top: -30px;
+}
+a{
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  display: inline-block;
+  padding-left: 20px;
+  opacity: 0.9;
+
+}
+
+html, body {
+  font-family: Helvetica;
+  height: 100%;
+  margin: 0;
+  color: seashell;
+
+}
+
+#body-content, #sub-text, #body-content2, #sub-text2{
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  width:1300px;
+  margin: 0;
+ vertical-align: middle;
+ line-height: normal;
+
+}
+#body-content2, #sub-text2{
+  opacity: 0.9;
+  text-align: center;
+}
+h2, h4{
+  opacity: 0.9;
+  color: seashell;
+}
+
+
+.container-2{
+  background-color: black;
+  padding-bottom: 150px;
+}
+
+#sub-text2{
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+#sub-text{
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+#body-content, #body-content2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.body-text{
+  height: 500px;
+  line-height: 300px;
+  text-align: center;
+  padding-top: 400px;
+
+}
+
+.content-2{
+  width: 1000px;
+  height: auto;
+}
+
+#Tea-Cozy, #email, #phone{
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+}
+#Tea-Cozy{
+  font-size: 30px;
+}
+
+#email, #phone, #copyright{
+  font-size: 22px;
+}
+
+.foot{
+    width: auto;
+    min-height: 30px;
+    height: auto;
+
+}
+
+#copyright{
+
+  top: 160px;
+    position: relative;
+    font-family: Helvetica;
+    color: seashell;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 20px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+
+.container-4{
+  min-height: 200px;
+  height: auto;
+}
